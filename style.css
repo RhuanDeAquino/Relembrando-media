@@ -2,17 +2,39 @@ body {
 	text-align: center;
 	background-image: linear-gradient(-90deg,  black,  black , #d459a8);
 }
-.menu-item {
+nav {
+	height: 20vh;
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
 }
-
 @media (max-width: 400px) {
 	nav {
 		display: flex;
 	}
 
 }
+.menu-item {
+	width: 40%;
+	height: 35%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+a {
+	width: 30%;
+	color: #FF69B4;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+a:hover {
+	color: #7CFC00;
+	background-color: #FF69B4;
+	border-radius: 50%;
+}
+
 @media (max-width: 400px){
 main {
 	display: flex;
